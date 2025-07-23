@@ -16,6 +16,6 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: enexcode.com
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          username: ${{ secrets.TOOLS_REPO }}
+          password: ${{ secrets.NAjholok15199@ }}
           server-dir: /public_html/tools/
